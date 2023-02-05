@@ -1,0 +1,180 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 40px;
+    width: 1280px;
+    height: 64px;
+    gap: 20px;
+    background: #2B2A2B;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.03);
+}
+
+article.init {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 7.33px;
+    width: 213.86px;
+    height: 36px;
+}
+
+a#link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23.4628px;
+    line-height: 35px;
+    color: #FFFFFF;
+    opacity: 0.86;
+}
+
+.cup {
+    width: 20.53px;
+    height: 30px;
+}
+
+article.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    top: 16px;
+    width: 550px;
+    height: 32px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:link:hover {
+    color: #b3e6b3;
+}
+
+.store,
+.Sus,
+.business,
+.Us,
+.cont {
+    width: 61px;
+    height: 32px;
+    padding: 8px;
+    gap: 8px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+
+}
+
+a.Sus {
+    width: 89px;
+}
+
+a.Sus:hover {
+    background-color: rgb(6, 27, 1);
+}
+
+a.business {
+    width: 111px;
+}
+
+a.business:hover {
+    background-color: rgb(6, 27, 1);
+}
+
+a.Us {
+    width: 112px;
+}
+
+a.Us:hover {
+    background-color: rgb(6, 27, 1);
+}
+
+a.cont {
+    width: 75px;
+}
+
+a.cont:hover {
+    background-color: rgb(6, 27, 1);
+}
+
+div.service {
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+    top: 12px;
+    width: 288px;
+    height: 40px;
+}
+
+article.link-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    margin-top: 2px;
+    gap: 8px;
+    width: 134px;
+    height: 10px;
+}
+
+picture {
+    width: 24px;
+    height: 26px;
+}
+
+#phone {
+    left: 12.5%;
+    right: 12.5%;
+    top: 12.5%;
+    bottom: 12.5%;
+    width: 20px;
+    height: 20px;
+}
+
+.number {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    width: 102px;
+    height: 16px;
+}
+
+.btn-star {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    gap: 2px;
+    width: 105px;
+    height: 40px;
+    background: #515051;
+    border-radius: 4px;
+    border: none;
+    color: #FFFFFF;
+}
+
+article.col-car {
+    width: 24px;
+    height: 30px;
+    top: 20px;
+    left: 1200px;
+    border: 2px solid none;
+    padding-right: 40px;
+}
+
+#carBuy {
+    width: 20px;
+    height: 20px;
+    left: 8px;
+    top: 2px;
+    bottom: 8.33px;
+    margin-right: 0%;
+}
