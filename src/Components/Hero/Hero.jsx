@@ -29,9 +29,7 @@ const Hero = (props) => {
                     <img src={frutsImage} alt={props.altName} />
 
                 </article>
-
             </div>
-
         </section>
     )
 
