@@ -1,0 +1,20 @@
+.reserved {
+    display: flex;
+    width: 1267px;
+    height: 40px;
+    background: #2B2A2B;
+    align-items: center;
+    justify-content: center;
+}
+
+.reserved a {
+    width: 359px;
+    height: 16px;
+    left: 540.5px;
+    top: 12px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}

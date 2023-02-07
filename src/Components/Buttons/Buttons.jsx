@@ -4,7 +4,10 @@ const Buttons = (props) => {
 
 
     return (
-        <button className={props.classButton}>{props.nameButton}</button>
+        <button className={props.classButton}>
+            <img src={props.img} alt={props.alt}></img>
+            {props.nameButton}            
+        </button>
     )
 }
 
