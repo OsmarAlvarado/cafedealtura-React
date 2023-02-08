@@ -26,7 +26,7 @@ const ProductsSection = (props) => {
 
         <section id='section3'>
             <h2>{title}</h2>
-            <ProductCard href='#' products={sortDataByPrice} showProducts={showProducts} />
+            {<ProductCard href='#' products={sortDataByPrice} showProducts={showProducts} />}
             <article className='arrow'>
                 <Link to={'/Store'} className='See' href={href}>
                     Ver todos

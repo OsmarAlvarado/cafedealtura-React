@@ -71,7 +71,6 @@ const DataContextProvider = ({ children }) => {
         }
     }
 
-
     useEffect(() => {
         localStorage.setItem('cartProducts', JSON.stringify(cartItems))
     }, [cartItems])

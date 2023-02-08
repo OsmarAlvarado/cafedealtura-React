@@ -6,11 +6,7 @@ import { DataContextProvider } from './Context/DataContext';
 import { CartContextProvider } from './Context/CartContext';
 import NavBar from './Components/NavBar/NavBar';
 import CopyrightFooter from './Components/CopyrightFooter/CopyrightFooter';
-
-// import { DataContextProvider } from './Contex/DataContext';
-// import { CartContextProvider } from './Contex/CartContext';
-
-
+// import Cart from './Components/Cart/Cart';
 
 
 
@@ -20,7 +16,7 @@ function App() {
       <DataContextProvider>
         <CartContextProvider>
           <NavBar href='#' altIcon='icon-bowl' altPhoneIcon='phone-icon' carBuyName='carBuy' />
-
+          {/* <Cart /> */}
           <Routes>
             <Route path='/' element={<Home />} />
           </Routes>

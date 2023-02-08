@@ -7,6 +7,7 @@ import { DataContext } from '../../Context/DataContext';
 import { useContext } from 'react';
 import ProductsSection from '../../Components/ProductsSection/ProductsSection'
 import FeatureSection from '../../Components/FeatureSection/FeatureSection';
+import NavBar from '../../Components/NavBar/NavBar';
 
 
 

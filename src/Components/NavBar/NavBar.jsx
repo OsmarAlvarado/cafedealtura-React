@@ -3,12 +3,20 @@ import Buttons from '../Buttons/Buttons'
 import IconTaza from '../Image/icon taza.png'
 import IconPhone from '../Image/icon phone.png'
 import CarBuy from '../Image/Group car.png'
-
 import './NavBar.css'
+import { DataContext } from '../../Context/DataContext'
+import { useContext } from 'react'
+import Cart from '../Cart/Cart'
 
 
 
 const NavBar = (props) => {
+
+    const { showCart, setShowCart, addItemToCart, cartItems, productsLength } = useContext(DataContext)
+
+    const toogleShowCart = () => {
+        setShowCart(!showCart)
+    }
 
     return (
 
@@ -50,12 +58,11 @@ const NavBar = (props) => {
 
             <article className='col-car'>
                 <div>
-                    <img src={CarBuy} id='' alt={props.carBuyName} />
+                    <img src={CarBuy} id='' alt={props.carBuyName} onClick={toogleShowCart} />
                 </div>
             </article>
         </header>
     )
-
 
 }
 
