@@ -1,4 +1,4 @@
-import CopyrightFooter from '../CopyrightFooter/CopyrightFooter'
+
 import FooterWrapper from '../FooterWrapper/FooterWrapper'
 
 import './Footer.css'
@@ -12,7 +12,7 @@ const Footer = () => {
             <br />
             <br />
             <br />
-            <CopyrightFooter href='#' />
+            
         </footer>
     )
 }
