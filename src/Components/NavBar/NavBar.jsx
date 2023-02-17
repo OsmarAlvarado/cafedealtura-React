@@ -16,7 +16,11 @@ const NavBar = (props) => {
 
     const toogleShowCart = () => {
         setShowCart(!showCart)
+        console.log("aqui ando")
     }
+
+
+    
 
     return (
 
@@ -58,7 +62,8 @@ const NavBar = (props) => {
 
             <article className='col-car'>
                 <div>
-                    <img src={CarBuy} id='' alt={props.carBuyName} onClick={toogleShowCart} />
+                    <img src={CarBuy} id='' alt={props.carBuyName} onClick={()=> toogleShowCart()} />
+                    <p className='count-product'>{productsLength}</p>
                 </div>
             </article>
         </header>

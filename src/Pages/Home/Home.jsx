@@ -8,6 +8,8 @@ import { useContext } from 'react';
 import ProductsSection from '../../Components/ProductsSection/ProductsSection'
 import FeatureSection from '../../Components/FeatureSection/FeatureSection';
 import NavBar from '../../Components/NavBar/NavBar';
+import DesktopForm from '../../Components/DesktopForm/DesktopForm';
+
 
 
 
@@ -15,7 +17,7 @@ const Home = () => {
     const { data } = useContext(DataContext)
 
     return (
-        <div>
+        <div className='home'>
 
             <Hero titleOne='De la planta a tu casa' titleTwo='El mejor café del mundo, ahora en tu casa' titleThree='Trabajamos con agricultores de todo el mundo para seleccionar los mejores granos de café y que puedas viajar desde la comodidad de tu hogar.'
                 altName='coffe harvest' />
@@ -26,6 +28,7 @@ const Home = () => {
                     de café antes de hacer tu
                     pedido y llévate un descuento' href='#' link='Cómo llegar' icon='icon arrow' photoBar='photo bar'
             />
+            <DesktopForm altPhone='icon phone' altMail='icon mail' href="#" />
             <Footer />
         </div>
     )

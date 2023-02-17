@@ -1,0 +1,15 @@
+.error {
+    border: 1px solid #bf1650;
+}
+
+.errCamp {
+    color: #bf1650;
+    font-size: 17px;
+    text-align: left;
+}
+
+.errCamp::before {
+    display: inline;
+    content: "⚠ ";
+}
+
