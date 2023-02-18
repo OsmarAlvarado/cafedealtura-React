@@ -37,7 +37,6 @@ const DesktopForm = (props) => {
                         </article>
                         <p className='job'>¿Buscas un trabajo? <a href={props.href}><b> Ver nuestras
                             ofertas.</b></a></p>
-
                     </article>
                 </div>
 

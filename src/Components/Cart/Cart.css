@@ -13,7 +13,7 @@
     position: fixed;
     align-items: center;
     top: 214px;
-    right: 1px;
+    right: -250px;
     transform: translate(-50%, -50%);
     width: auto;
     height: 300px;

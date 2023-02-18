@@ -95,7 +95,7 @@ const Form = (props) => {
                 {errors.phone && <p className="errCamp">{errors.phone.message}</p>}
             </article>
             <article className="area">
-                <p> <small> <label htmlFor="view"></label></small></p>
+                <p className="view"> <small> <label htmlFor="view"></label></small></p>
                 <textarea id="textarea" name="textarea"
                     rows="8" cols="50"
                     placeholder="¿En qué podemos ayudarte?"
@@ -126,15 +126,15 @@ const Form = (props) => {
                         }
                     })}
                 />
-                {errors.checked && <p className="errCamp">{errors.checked.message}</p>}
+
                 <p className="polytic"> Acepto la <a href={props.href}><b>Política de
                     Privacidad</b></a> y los <a href={props.href}><b>Términos y
                         condiciones.</b></a></p>
-
+                {errors.checked && <p className="errCamp">{errors.checked.message}</p>}
             </article>
-
+            
             <Buttons type="submit" classButton='enviarForm' href={props.href} nameButton='Enviar' />
-            {/* <input type="submit" /> */}
+
         </form>
 
     );

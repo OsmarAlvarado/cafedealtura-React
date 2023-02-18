@@ -7,6 +7,7 @@ import { CartContextProvider } from './Context/CartContext';
 import NavBar from './Components/NavBar/NavBar';
 import CopyrightFooter from './Components/CopyrightFooter/CopyrightFooter';
 import Cart from './Components/Cart/Cart';
+import Store from './Pages/Store/Store';
 
 
 
@@ -19,6 +20,7 @@ function App() {
           <Cart />
           <Routes>
             <Route path='/' element={<Home />} />
+            <Route path='/Store' element={<Store />} />
           </Routes>
           <CopyrightFooter href='#' />
         </CartContextProvider>

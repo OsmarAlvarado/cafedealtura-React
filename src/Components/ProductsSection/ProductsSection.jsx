@@ -1,7 +1,6 @@
 import { useContext, useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { DataContext } from '../../Context/DataContext';
-import IconArrow from '../Image/Icon arrow.png'
 import ProductCard from '../ProductCard/ProductCard'
 import './ProductsSection.css'
 
@@ -9,7 +8,7 @@ import './ProductsSection.css'
 
 const ProductsSection = (props) => {
 
-    const { title, showProducts, alt, href } = props
+    const { title, showProducts, alt, href, link, src, id } = props
 
     const { data } = useContext(DataContext)
     const sortDataByPrice = data.sort((a, b) => a.price - b.price, 0)
@@ -24,16 +23,16 @@ const ProductsSection = (props) => {
 
     return (
 
-        <section id='section3'>
+        <section id={id}>
             <h2>{title}</h2>
-            {<ProductCard href='#' products={sortDataByPrice} showProducts={showProducts} />}
+            <div className='bagsWrapper' >
+                {<ProductCard href='#' id='bags' products={sortDataByPrice} showProducts={showProducts} />}
+            </div>
             <article className='arrow'>
                 <Link to={'/Store'} className='See' href={href}>
-                    Ver todos
+                    {link} <img src={src} alt={alt} />
                 </Link>
-                <img src={IconArrow} alt={alt} />
             </article>
-
         </section>
     )
 

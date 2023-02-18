@@ -9,9 +9,7 @@ import ProductsSection from '../../Components/ProductsSection/ProductsSection'
 import FeatureSection from '../../Components/FeatureSection/FeatureSection';
 import NavBar from '../../Components/NavBar/NavBar';
 import DesktopForm from '../../Components/DesktopForm/DesktopForm';
-
-
-
+import IconArrow from '../../Components/Image/Icon arrow.png'
 
 const Home = () => {
     const { data } = useContext(DataContext)
@@ -22,7 +20,7 @@ const Home = () => {
             <Hero titleOne='De la planta a tu casa' titleTwo='El mejor café del mundo, ahora en tu casa' titleThree='Trabajamos con agricultores de todo el mundo para seleccionar los mejores granos de café y que puedas viajar desde la comodidad de tu hogar.'
                 altName='coffe harvest' />
             <CardsOne />
-            <ProductsSection title='Novedades' showProducts={4} alt='arrow icon' href='#' />
+            <ProductsSection id='section3' title='Novedades' showProducts={4} alt='arrow icon' href='#' link="Ver todos" src={IconArrow} />
             <Accordion href='#' arroIcon='arrow icon' />
             <FeatureSection titleH2='Pruébalo en nuestro coffee shop' paragraph='Visita nuestra cafetería en el centro de la ciudad para probar los granos
                     de café antes de hacer tu

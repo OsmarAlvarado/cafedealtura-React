@@ -8,10 +8,10 @@ const ProductCard = (props) => {
 
     const { data, addItemToCart } = useContext(DataContext)
 
-    const { products, showProducts, href } = props
+    const { products, showProducts, href, id, bags } = props
 
     return (
-        <div id='bags'>
+        <div id={id} className={bags}>
             {products.slice(0, showProducts).map((product) => (
                 <article className={product.available ? "col" : "notAvailable"} key={product._id} >
                     <img className='image-cart' alt={product.brand} src={product.img_url} />

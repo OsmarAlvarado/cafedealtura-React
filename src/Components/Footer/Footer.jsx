@@ -1,6 +1,4 @@
-
 import FooterWrapper from '../FooterWrapper/FooterWrapper'
-
 import './Footer.css'
 
 

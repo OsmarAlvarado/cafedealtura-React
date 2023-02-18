@@ -11,8 +11,6 @@ const Cart = () => {
         setShowCart(!showCart)
     }
 
-
-
     const showShoppingCart = showCart ? "shoppingCartShow" : "shoppingCart"
 
     const plus = (id) => {
@@ -69,14 +67,13 @@ const Cart = () => {
                         </div>
                     ))
                 }
-
             </div>
 
             {cartItems.length !== 0 ?
                 <div className='cartFooter'>
                     <h3 className='price-total'>Total: {total.toFixed(2)} €</h3>
                     <h5 className='iva-incluyed'>Incluye {(total.toFixed(2) * 0.21).toFixed(2)} € de IVA</h5>
-                    <Link to="/cesta" className='btn' onClick={toogleShowCart}>Tramitar pedido</Link>
+                    <Link to="/Cesta" className='btn' onClick={toogleShowCart}>Tramitar pedido</Link>
                 </div> : ''
             }
         </div>

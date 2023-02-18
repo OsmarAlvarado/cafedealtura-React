@@ -5,8 +5,8 @@
     align-items: center;
     padding: 48px 147px;
     gap: 24px;
-    width: 1267px;
-    height: 380px;
+    width: 100%;
+    /* height: 380px; */
     background-image: url(../Image/cafe\ back.jpg);
     background-size: cover;
     background-position: center;

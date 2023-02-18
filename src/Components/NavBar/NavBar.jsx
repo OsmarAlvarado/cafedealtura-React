@@ -16,11 +16,9 @@ const NavBar = (props) => {
 
     const toogleShowCart = () => {
         setShowCart(!showCart)
-        console.log("aqui ando")
     }
 
-
-    
+    console.log(productsLength)
 
     return (
 
@@ -62,13 +60,12 @@ const NavBar = (props) => {
 
             <article className='col-car'>
                 <div>
-                    <img src={CarBuy} id='' alt={props.carBuyName} onClick={()=> toogleShowCart()} />
+                    <img src={CarBuy} id='carBuy' alt={props.carBuyName} onClick={() => toogleShowCart()} />
                     <p className='count-product'>{productsLength}</p>
                 </div>
             </article>
         </header>
     )
-
 }
 
 export default NavBar
