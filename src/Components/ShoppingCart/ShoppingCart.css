@@ -1,0 +1,195 @@
+.shoppingBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    gap: 24px;
+    width: 100%;
+    height: auto;
+    flex: none;
+    align-self: stretch;
+}
+
+.shop {
+    margin-top: 60px;
+    color: #2A5B45;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    width: auto;
+    height: auto;
+    flex: none;
+}
+
+.frame {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    width: 1200px;
+    height: 400px;
+    flex: none;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.producTable {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 8px;
+    width: 730px;
+    height: auto;
+    gap: 24px;
+}
+
+.producTable h3 {
+    width: auto;
+    height: 20px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.SelectSend {
+    width: 143px;
+    height: 24px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+    flex: none;
+    flex-grow: 0;
+}
+
+.shipping {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    width: 776px;
+    height: 36px;
+    flex: none;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.shipping input {
+    width: 24px;
+    height: 24px;
+    flex: none;
+    flex-grow: 0;
+    position: absolute;
+    background: #2A5B45;
+    border-radius: 100px;
+}
+
+.sendDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+    width: 666px;
+    height: 36px;
+    flex: none;
+    flex-grow: 1;
+}
+
+.sendDays {
+    width: 88px;
+    height: 16px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    flex: none;
+    flex-grow: 0;
+}
+
+.sendStandard {
+    width: 202px;
+    height: 16px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    flex: none;
+    flex-grow: 0;
+}
+
+.price {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 8px;
+
+    width: 63px;
+    height: 24px;
+
+    flex: none;
+    flex-grow: 0;
+}
+
+.price p {
+    width: 63px;
+    height: 24px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.sendUrgent {
+    width: 114px;
+    height: 16px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+
+    flex: none;
+    flex-grow: 0;
+}
+
+.send24h {
+    width: 509px;
+    height: 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    flex: none;
+    flex-grow: 0;
+}
+
+.totalShopp {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 16px;
+    width: 384px;
+    height: 340px;
+    background: #F7F5F3;
+    flex: none;
+    flex-grow: 0;
+}

@@ -8,6 +8,8 @@ import NavBar from './Components/NavBar/NavBar';
 import CopyrightFooter from './Components/CopyrightFooter/CopyrightFooter';
 import Cart from './Components/Cart/Cart';
 import Store from './Pages/Store/Store';
+import Cesta from './Pages/Cesta/Cesta';
+
 
 
 
@@ -21,6 +23,7 @@ function App() {
           <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/Store' element={<Store />} />
+            <Route path='/Cesta' element={<Cesta />} />
           </Routes>
           <CopyrightFooter href='#' />
         </CartContextProvider>

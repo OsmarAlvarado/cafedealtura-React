@@ -1,0 +1,226 @@
+.detailsTotal {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    width: 336px;
+    height: 176px;
+
+    flex: none;
+    flex-grow: 0;
+}
+
+.detailsTotal h3 {
+    width: 129px;
+    height: 24px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+
+    color: #000000;
+
+    flex: none;
+    flex-grow: 0;
+}
+
+.detailsTotal hr {
+    width: 336px;
+    height: 0px;
+
+    border: 1px solid #E3DED7;
+
+    flex: none;
+    flex-grow: 0;
+}
+
+.detailsSub {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    width: 336px;
+    height: 16px;
+
+    flex: none;
+    flex-grow: 0;
+}
+
+.subtotal {
+    width: 70px;
+    height: 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    flex: none;
+    flex-grow: 0;
+}
+
+.subtotalNum {
+    width: 60px;
+    height: 16px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    flex: none;
+    flex-grow: 0;
+}
+
+.sendDet {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    width: 336px;
+    height: 16px;
+    flex: none;
+    flex-grow: 0;
+}
+
+.send {
+    width: 43px;
+    height: 16px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    flex: none;
+    flex-grow: 0;
+}
+
+.sendFree {
+    width: 49px;
+    height: 16px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    flex: none;
+    flex-grow: 0;
+}
+
+.totalCart {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    width: 336px;
+    height: 40px;
+    flex: none;
+    flex-grow: 0;
+}
+
+.tot {
+    width: 45px;
+    height: 16px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    flex: none;
+    flex-grow: 0;
+}
+
+.plusIva {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 8px;
+
+    width: 107px;
+    height: 40px;
+
+    flex: none;
+    flex-grow: 0;
+}
+
+.totalFix {
+    width: 55px;
+    height: 16px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    flex: none;
+    flex-grow: 0;
+}
+
+.incluyedIva {
+    width: 115px;
+    height: 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+
+    text-align: right;
+    color: #515051;
+    flex: none;
+    flex-grow: 0;
+}
+
+.buttonWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    width: 310px;
+    height: 180px;  
+}
+
+.goToCheck {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px 24px;
+    gap: 8px;
+    width: 136px;
+    height: 40px;
+    background: #2A5B45;
+    border-radius: 4px;
+    flex: none;
+    flex-grow: 0;
+    color: #FFFFFF;
+    border: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.continueShop {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px 24px;
+    gap: 8px;
+    width: 165px;
+    height: 40px;
+    border-radius: 4px;
+    flex: none;
+    flex-grow: 0;
+    color: #2A5B45;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+}
