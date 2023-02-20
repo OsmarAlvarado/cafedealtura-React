@@ -5,8 +5,7 @@ import ShoppingCart from '../../Components/ShoppingCart/ShoppingCart'
 
 const Cesta = () => {
     return (
-        <div>
-            
+        <div>            
             <ShoppingCart />
         </div>
     )

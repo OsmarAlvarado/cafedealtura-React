@@ -9,7 +9,7 @@ const Store =()=>{
 
     return(
         <div className='Store'>
-            <ProductsSection id='section' bags='bagsWrapper' title='Últimos origenes' link="" />
+            <ProductsSection id='section' title='Últimos origenes' link="" />
             <CardsOne />
             <Footer />
         </div>

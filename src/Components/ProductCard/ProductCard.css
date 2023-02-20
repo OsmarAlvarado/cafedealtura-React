@@ -1,4 +1,5 @@
 #bags {
+    margin-top: 100px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -7,15 +8,12 @@
     padding: 0px;
     gap: 24px;
     width: 1200px;
-    /* height: 391.39px; */
-    flex: none;
-    flex-grow: 0;
+    height: auto;
 }
 
 #bags article {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
     align-items: center;
     padding: 24px;
     gap: 24px;
@@ -28,8 +26,8 @@
 .image-cart {
     width: 219.39px;
     height: 219.39px;
-    flex: none;
-    flex-grow: 0;
+    line-height: -200px;
+    display: flex;
 }
 
 .country {
@@ -52,11 +50,9 @@
     font-size: 14px;
     line-height: 16px;
     width: 42px;
-    height: 4px;
+    height: 300px;
     text-align: center;
     color: #000000;
-    flex: none;
-    flex-grow: 0;
 }
 
 .Add {

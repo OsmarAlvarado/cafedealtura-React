@@ -12,6 +12,7 @@ const DataContextProvider = ({ children }) => {
     const [showCart, setShowCart] = useState(false)
     const [productsLength, setProductsLength] = useState(0)
     const [total, setTotal] = useState(0)
+    const [shipping, setShipping] = useState(0)
 
     const [cartItems, setCartItems] = useState(() => {
         try {
@@ -78,7 +79,7 @@ const DataContextProvider = ({ children }) => {
 
     return (
         <DataContext.Provider
-            value={{ data, fetching, showCart, setShowCart, addItemToCart, deleteItemFromCart, cartItems, setCartItems, productsLength, total }}
+            value={{ data, fetching, showCart, setShowCart, addItemToCart, deleteItemFromCart, cartItems, setCartItems, shipping, setShipping, productsLength, total }}
         >
             {children}
         </DataContext.Provider>

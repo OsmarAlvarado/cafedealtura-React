@@ -4,8 +4,8 @@
     align-items: center;
     padding: 40px;
     gap: 24px;
-    width: 100%;
-    height: auto;
+    width: 1280px;
+    height: 900px;
     flex: none;
     align-self: stretch;
 }
@@ -29,8 +29,8 @@
     align-items: flex-start;
     padding: 0px;
     gap: 24px;
-    width: 1200px;
-    height: 400px;
+    width: auto;
+    height: 500px;
     flex: none;
     align-self: stretch;
     flex-grow: 0;
@@ -44,6 +44,15 @@
     width: 730px;
     height: auto;
     gap: 24px;
+}
+
+.producTable hr {
+    width: 776px;
+    height: 0px;
+    border: 1px solid #E3DED7;
+    flex: none;
+    align-self: stretch;
+    flex-grow: 0;
 }
 
 .producTable h3 {
@@ -73,17 +82,17 @@
     flex-direction: row;
     align-items: center;
     padding: 0px;
-    gap: 16px;
-    width: 776px;
-    height: 36px;
+    gap: 50px;
+    width: 300px;
+    height: 30px;
     flex: none;
     align-self: stretch;
     flex-grow: 0;
 }
 
 .shipping input {
-    width: 24px;
-    height: 24px;
+    width: 20px;
+    height: 20px;
     flex: none;
     flex-grow: 0;
     position: absolute;
@@ -96,9 +105,9 @@
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
-    gap: 4px;
+    gap: 1px;
     width: 666px;
-    height: 36px;
+    height: 30px;
     flex: none;
     flex-grow: 1;
 }
@@ -131,15 +140,14 @@
 .price {
     display: flex;
     flex-direction: row;
-    align-items: flex-end;
+    align-items: center;
     padding: 0px;
-    gap: 8px;
-
+    gap: 0px;
     width: 63px;
     height: 24px;
-
     flex: none;
     flex-grow: 0;
+    margin: -150px;
 }
 
 .price p {
@@ -155,6 +163,35 @@
     flex-grow: 0;
 }
 
+.shippingtwo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 30px;
+    width: 100px;
+    height: 30px;
+    flex: none;
+    align-self: stretch;
+}
+
+.shippingtwo input{
+    display: flex;    
+    width: 20px;
+    height: 20px;    
+    background: #2A5B45;
+    border-radius: 100px;
+    display: block;
+}
+
+.sendDetailsUrgent{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1px;
+    width: 666px;
+}
+
 .sendUrgent {
     width: 114px;
     height: 16px;
@@ -164,7 +201,6 @@
     font-size: 14px;
     line-height: 16px;
     color: #000000;
-
     flex: none;
     flex-grow: 0;
 }
@@ -179,6 +215,27 @@
     color: #000000;
     flex: none;
     flex-grow: 0;
+}
+
+.priceTwo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 0px;
+    width: 63px;
+    height: 24px;
+    margin-left: 30px;
+}
+
+.priceTwo p{
+    width: 63px;
+    height: 24px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
 }
 
 .totalShopp {

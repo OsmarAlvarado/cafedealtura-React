@@ -9,6 +9,7 @@ import CopyrightFooter from './Components/CopyrightFooter/CopyrightFooter';
 import Cart from './Components/Cart/Cart';
 import Store from './Pages/Store/Store';
 import Cesta from './Pages/Cesta/Cesta';
+import Checkout from './Pages/Checkout/Checkout';
 
 
 
@@ -24,6 +25,7 @@ function App() {
             <Route path='/' element={<Home />} />
             <Route path='/Store' element={<Store />} />
             <Route path='/Cesta' element={<Cesta />} />
+            <Route path='/Checkout' element={<Checkout />} />
           </Routes>
           <CopyrightFooter href='#' />
         </CartContextProvider>

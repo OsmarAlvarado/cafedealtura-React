@@ -29,8 +29,6 @@ const Form = (props) => {
         console.log(userInfo);
     }
 
-    console.log(errors);
-
     return (
 
         <form className="form" action="#" method="get" onSubmit={handleSubmit(onSubmit)}>

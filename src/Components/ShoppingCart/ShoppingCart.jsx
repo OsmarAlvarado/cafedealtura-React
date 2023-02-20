@@ -9,7 +9,7 @@ import './ShoppingCart.css'
 
 const ShoppingCart = () => {
 
-    const { showcart, setShowCart, cartItems, setCartItems, total, productsLength } = useContext(DataContext)
+    const { shipping, setShipping, productsLength } = useContext(DataContext)
 
     // const [shipping, setShipping] = useState('GRATIS')
     // const [quanty, setQuanty] = useState(0)
@@ -24,12 +24,11 @@ const ShoppingCart = () => {
                     <h3>Productos</h3>
                     <div>
                         <ShoppingProduct />
-                        <hr />
                     </div>
                     <h3 className='SelectSend'>Seleccionar envío</h3>
                     <div className='shipping'>
                         <div>
-                            <input type="radio" id='' name='shippingMethod' value="0" defaultChecked />
+                            <input type="radio" id='' name='shippingMethod' value="0" onClick={() => setShipping(0)} defaultChecked />
                         </div>
                         <div className='sendDetails'>
                             <p className='sendDays'>Envío 5-7 días</p>
@@ -40,25 +39,24 @@ const ShoppingCart = () => {
                         </div>
                     </div>
                     <hr />
-                    <div className='shipping'>
+                    <div className='shippingtwo'>
                         <div>
-                            <input type="radio" id="choice2" name="shippingMethod" value="15" />
+                            <input type="radio" id="choice2" name="shippingMethod" value="15" onClick={() => setShipping(9)} />
                         </div>
-
                         <div className="sendDetailsUrgent">
                             <p className="sendUrgent">Envío urgente 24h</p>
                             <p className="send24h">Recibe tu pedido en las siguientes 24h (Para pedidos realizados
                                 antes de las 13:00).
                             </p>
                         </div>
-                        <div className="price">
+                        <div className="priceTwo">
                             <p><span>9.00 €</span></p>
                         </div>
                     </div>
                 </div>
 
                 <div className='totalShopp'>
-                    <TotalDetail />
+                    <TotalDetail shipment={shipping} />
                 </div>
             </div>
         </section>

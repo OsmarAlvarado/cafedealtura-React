@@ -5,7 +5,7 @@
     align-items: center;
     padding: 40px;
     gap: 40px;
-    width: 100%;
+    width: 1280px;
     /* height: 610px; */
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
@@ -22,7 +22,6 @@
     flex: none;
     flex-grow: 0;
 }
-
 
 .arrow {
     display: flex;

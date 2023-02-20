@@ -25,7 +25,7 @@ const ProductsSection = (props) => {
 
         <section id={id}>
             <h2>{title}</h2>
-            <div className='bagsWrapper' >
+            <div >
                 {<ProductCard href='#' id='bags' products={sortDataByPrice} showProducts={showProducts} />}
             </div>
             <article className='arrow'>

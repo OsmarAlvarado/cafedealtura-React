@@ -71,6 +71,7 @@ const ShoppingProduct = () => {
                                 <h3 className=''> {(product.price * product.amount).toFixed(2)} €</h3>
                             </div>
                             <p className='delete-product' onClick={() => removeProduct(product._id)} id={product._id}>X</p>
+                            
                         </div>
                     ))
             }
